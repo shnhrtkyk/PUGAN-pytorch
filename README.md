@@ -4,7 +4,7 @@ Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial
 #### Install some packages
 simply by 
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 #### Install Pointnet2 module
 ```
