@@ -1,5 +1,17 @@
-# PUGAN-pytorch
+# PUGAN-pytorch in TSUBAME
 Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial Network, ICCV, 2019)
+#### Load Modules
+```
+module load python/3.6.5
+module load cuda/10.1.105 
+module load nccl/2.2.13
+module load intel/19.0.0.117
+module load cudnn/7.4
+```
+#### Install  pip
+```
+pip install --user  --upgrade pip
+```
 
 #### Install some packages
 simply by 
