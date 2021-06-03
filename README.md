@@ -3,12 +3,6 @@ Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial
 #### Load Modules
 ```
 module load python/3.6.5
-module load cuda/10.1.105 
-module load nccl/2.2.13
-module load cudnn/7.4
-module load gcc
-
-module load python/3.6.5
 module load cuda/9.0.176
 module load nccl/2.2.13
 module load cudnn/7.1
