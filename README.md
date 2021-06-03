@@ -7,6 +7,7 @@ module load cuda/10.1.105
 module load nccl/2.2.13
 module load intel/19.0.0.117
 module load cudnn/7.4
+module load gcc/8.3.0
 ```
 #### Install  pip
 ```
