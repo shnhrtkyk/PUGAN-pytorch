@@ -18,12 +18,14 @@ pip install --user  --upgrade pip
 simply by 
 ```
 pip install --user torch==1.2.0
+pip install --user torchvision==0.4.0
+pip install --user ninja
 pip install -r requirements.txt --user
 ```
 #### Install Pointnet2 module
 ```
 cd pointnet2
-python setup.py install
+python setup.py install --user
 ```
 #### Install KNN_cuda
 ```
