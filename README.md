@@ -5,9 +5,13 @@ Pytorch unofficial implementation of PUGAN (a Point Cloud Upsampling Adversarial
 module load python/3.6.5
 module load cuda/10.1.105 
 module load nccl/2.2.13
-module load intel/19.0.0.117
 module load cudnn/7.4
 module load gcc
+
+module load python/3.6.5
+module load cuda/9.0.176
+module load nccl/2.2.13
+module load cudnn/7.1
 ```
 #### Install  pip
 ```
@@ -20,6 +24,7 @@ simply by
 pip install --user torch==1.2.0
 pip install --user torchvision==0.4.0
 pip install --user ninja
+pip install --user colored-traceback
 pip install -r requirements.txt --user
 ```
 #### Install Pointnet2 module
@@ -40,6 +45,6 @@ also change params['train_split'] and params['test_split'] to where you save the
 #### training
 ```
 cd train
-python train.py --exp_name=the_project_name --gpu=gpu_number --use_gan --batch_size=12
+python train.py --exp_name=the_project_name --gpu=0 --use_gan --batch_size=12
 ```
 
