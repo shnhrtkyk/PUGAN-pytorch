@@ -17,7 +17,7 @@ pip install --user  --upgrade pip
 #### Install some packages
 simply by 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt --user
 ```
 #### Install Pointnet2 module
 ```
