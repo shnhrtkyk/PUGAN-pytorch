@@ -17,6 +17,7 @@ pip install --user  --upgrade pip
 #### Install some packages
 simply by 
 ```
+pip install --user torch==1.2.0
 pip install -r requirements.txt --user
 ```
 #### Install Pointnet2 module
