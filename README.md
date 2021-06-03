@@ -19,7 +19,7 @@ pip install --user torch==1.2.0
 pip install --user torchvision==0.4.0
 pip install --user ninja
 pip install --user colored-traceback
-pip install -r requirements.txt --user
+~~pip install -r requirements.txt --user~~
 ```
 #### Install Pointnet2 module
 ```
